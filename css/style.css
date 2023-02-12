@@ -1,0 +1,80 @@
+body {
+    max-width: 90%;
+    margin: auto;
+}
+
+ul {
+    margin-top: 0.8rem;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: -1.5rem;
+}
+
+li {
+    margin-right: 3rem;
+}
+
+input,
+.message.warning {
+    max-width: 400px;
+}
+
+h1 {
+    color: #989898;
+    font-size: 20px;
+    margin: 3rem 0 3rem 0;
+    padding-top: 30px;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form>div {
+    margin-bottom: 1rem;
+}
+
+form input {
+    width: 100%;
+    padding: 0.4rem;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(9, 193, 12);
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #09842e;
+}
+
+.message.warning {
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    color: white;
+    background: rgb(244, 30, 26);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.active {
+    font-weight: bolder;
+}
